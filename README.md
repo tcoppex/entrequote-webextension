@@ -8,10 +8,10 @@ $ npm install -g web-ext
 $ web-ext run 
 ```
 
-Alternatively, on *Firefox* you can load temporary addons by going to [about:debugging](about:debugging) and click on **Load Temporary Add-on**.
+Alternatively, on *Firefox* you can load temporary addons by going to **[about:debugging](//about:debugging)** and click on **Load Temporary Add-on**.
 
-On *Chrome*, you can navigate to [chrome://extensions](chrome://extensions), check the **Developer Mode** box and click on **Load Unpacked Extension**.
+On *Chrome*, you can navigate to **[chrome://extensions](chrome://extensions)**, check the **Developer Mode** box and click on **Load Unpacked Extension**.
 
 # Settings
 
-If you need to change the distant server *hostname* or *port* you can do so in the extension settings. By default the extension try to connect to the server @ [127.0.0.1:4567](127.0.0.1:4567).
+If you need to change the distant server *hostname* or *port* you can do so in the extension settings. By default the extension try to connect to the server @ *[127.0.0.1:4567](http://127.0.0.1:4567)*.
