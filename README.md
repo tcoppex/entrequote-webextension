@@ -8,9 +8,9 @@ $ npm install -g web-ext
 $ web-ext run 
 ```
 
-Alternatively, on *Firefox* you can load temporary addons by going to **[about:debugging](//about:debugging)** and click on **Load Temporary Add-on**.
+Alternatively, on *Firefox* you can load temporary addons by typing *about:debugging* in the Firefox URL bar then click on **Load Temporary Add-on**.
 
-On *Chrome*, you can navigate to **[chrome://extensions](chrome://extensions)**, check the **Developer Mode** box and click on **Load Unpacked Extension**.
+On *Chrome*, you can navigate to *[chrome://extensions](//chrome://extensions)*, check the **Developer Mode** box and click on **Load Unpacked Extension**.
 
 # Settings
 
