@@ -13,7 +13,9 @@ function getPageAuthor() {
     .filter(e => { 
       let value = e.attributes[0].value;
       return (-1 != value.search('author')) 
-          || (-1 != value.search('creator'));
+          || (-1 != value.search('creator'))
+          || (-1 != value.search('og:site_name'))
+          ;
     })
     // keep only one, or the hostname if none exists.
     .reduce((a, curr) => curr.content, window.location.hostname)
