@@ -14,7 +14,10 @@ function getPageAuthor() {
       let value = e.attributes[0].value;
       return (-1 != value.search('author')) 
           || (-1 != value.search('creator'))
-          || (-1 != value.search('og:site_name'))
+          || (-1 != value.search('twitter:creator')
+          || (-1 != value.search('twitter:site')
+          || (-1 != value.search('og:site_name')
+      )
           ;
     })
     // keep only one, or the hostname if none exists.
