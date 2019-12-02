@@ -4,13 +4,13 @@
   
   "applications": {
     "gecko": {
-      "id": "addon@entrequote.com",
-      "strict_min_version": "42.0"
+      "id": "addon@entrequotes.com",
+      "strict_min_version": "57.0"
     }
   },
 
   "description": "Save your selections in a database of quotes.",
-  "version": "0.0",
+  "version": "0.1",
   "homepage_url": "https://github.com/tcoppex/entrequote-webextension",
   "author": "polysfaer",
 
